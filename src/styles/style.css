@@ -1,0 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@500&family=Quicksand:wght@300..700&display=swap');
+@import './Basse/base.css';
+@import './componentStyle/home.css';
+@import './componentStyle/play.css';
+@import './componentStyle/quiz-instruction.css';
+@import './componentStyle/quiz-summary.css';

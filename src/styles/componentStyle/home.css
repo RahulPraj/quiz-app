@@ -1,0 +1,112 @@
+body{
+    font-family: "Quicksand", sans-serif;
+}
+
+#home{
+    background-image: url('../../assets/img/home2.jpg');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+
+   
+
+}
+
+section{
+    background-color: rgba(23, 22, 22, 0.7);
+    padding-left:2rem ;
+    padding-right: 2rem;
+    /* margin: 50px 0; */
+    height: 80%;
+    width: 35%;
+    border-radius: 10px;
+}
+
+.cube{
+    font-size: 7rem;
+    color: orange;
+}
+
+h1{
+    font-size: 4rem;
+    text-align: center;
+    color: #f8f8f8;
+}
+
+.play-button-container{
+    width: 100%;
+    
+
+}
+ul{
+    list-style-type:none;
+    
+}
+a{
+    text-decoration: none;
+}
+a.play-button{
+    background-color: #57b846;
+    color: #ffff;
+    cursor: pointer;
+    padding: 1rem;
+    display: inline-block;
+    border-radius: 30px;
+    text-align: center;
+    transition: 0.3s linear all;
+    margin-top: 2rem ;
+    width: 95%;
+     
+    
+}
+a.play-button:hover{
+    background-color: #3d8930;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}   
+
+.auth-container{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 4rem;
+
+}
+#login-button{
+    background-color: rgb(189, 51, 51);
+    
+}
+#login-button:hover{
+   background-color: rgb(186, 13, 13); 
+}
+#signup-button{
+    background-color: #1da1f2;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    
+}
+
+#signup-button:hover{
+    background-color: #0e7abd;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.auth-buttons{
+    color: #ffff;
+    cursor: pointer;
+    border-radius: 30px;
+    padding: 1rem 0;
+    text-align: center;
+    width: 45%;
+    transition: 0.3s linear all;
+    
+}
+
+@media(max-width:768px){
+    #home section{
+        padding: 0 1rem;
+        width: 100%;
+        height: 100%;
+    }
+}

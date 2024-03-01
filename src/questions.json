@@ -1,0 +1,202 @@
+[
+    {
+        "question": "What does HTML stand for?",
+        "optionA": "Hyper Text Markup Language",
+        "optionB":  "Hyperlinks and Text Markup Language",
+        "optionC": "Home Tool Markup Language",
+        "optionD": "Hyper Tool Markup Language",
+        "answer": "Hyper Text Markup Language"
+    },
+
+    {
+        "question": "Which attribute is used to specify that an input field must be filled out in HTML5?",
+        "optionA": "placeholder",
+        "optionB": "required",
+        "optionC": "validate",
+        "optionD": "mandatory",
+        "answer":  "required"
+    },
+
+
+    {
+        "question": "Which attribute is used to specify the URL of the image in HTML?",
+        "optionA": "src",
+        "optionB": "url",
+        "optionC": "link",
+        "optionD": "href",
+        "answer": "src"
+    },
+
+
+    {
+        "question": "What does CSS stand for?",
+        "optionA": "Creative Style Sheets",
+        "optionB": "Cascading Style Sheets",
+        "optionC": "Computer Style Sheets",
+        "optionD": "Colorful Style Sheets",
+        "answer": "Cascading Style Sheets"
+    },
+
+    {
+        "question": "Which CSS property is used to control the text size of an element?",
+        "optionA": "font-size",
+        "optionB":  "text-size",
+        "optionC": "size",
+        "optionD":  "font-style",
+        "answer": "font-size"
+    },
+
+    {
+        "question": "In CSS, which property is used to control the space between the elements' border and its content?",
+        "optionA": "margin",
+        "optionB": "padding",
+        "optionC": "spacing",
+        "optionD": "border-spacing",
+        "answer": "padding"
+    },
+
+    {
+        "question":"Which CSS property is used to control the space between lines of text?",
+        "optionA": "spacing",
+        "optionB": "line-height",
+        "optionC":"line-spacing",
+        "optionD": "text-spacing",
+        "answer": "line-height"
+    },
+
+    {
+        "question": "In CSS, which property is used to set the text color of an element?",
+        "optionA":  "color",
+        "optionB":  "text-color",
+        "optionC": "font-color",
+        "optionD": "text-style",
+        "answer": "color"
+    },
+
+    {
+        "question": "Which CSS pseudo-element is used to style the first letter of a text?",
+        "optionA": "::before",
+        "optionB":  "::first-letter",
+        "optionC": "::after",
+        "optionD": "::first-line",
+        "answer": "::first-letter"
+    },
+
+    {
+        "question": "Which CSS pseudo-class is used to select an element when it's being hovered over by the mouse pointer?",
+        "optionA":  ":hover",
+        "optionB":  ":active",
+        "optionC":  ":focus",
+        "optionD":":visited",
+        "answer": ":hover"
+    },
+
+    {
+        "question": "What is the result of the following expression: 3 + 2 + '7'?",
+        "optionA": "327",
+        "optionB": "12",
+        "optionC": "57",
+        "optionD": "5",
+        "answer":"57"
+    },
+
+    {
+        "question": "Which keyword is not used to redeclare and reinitialize variables in JavaScript?",
+        "optionA": "var",
+        "optionB": "let",
+        "optionC": "const",
+        "optionD": "variable",
+        "answer": "const"
+    },
+    {
+        "question": "Which operator is used to concatenate strings in JavaScript?",
+        "optionA":  "&",
+        "optionB": "+",
+        "optionC": "*",
+        "optionD": "-",
+        "answer": "+"
+    },
+
+    {
+        "question": "What does the `typeof` operator in JavaScript return for the `null` value?",
+        "optionA": "'null'",
+        "optionB": "'undefined'",
+        "optionC": "'object'",
+        "optionD": "'string'",
+        "answer": "'object'"
+    },
+
+    {
+        "question": "What will the following code output: console.log(2 + '2' - 1);",
+        "optionA": "3",
+        "optionB": "22",
+        "optionC":"1",
+        "optionD": "NaN",
+        "answer": "21"
+    },
+
+    {
+        "question": "Which method is used to remove the last element from an array in JavaScript?",
+        "optionA": ".pop()",
+        "optionB":".shift()",
+        "optionC":".slice()",
+        "optionD": ".splice()",
+        "answer": ".pop()"
+    },
+
+    {
+        "question": "Which operator is used for strict equality comparison in JavaScript?",
+        "optionA":"==",
+        "optionB": "===",
+        "optionC":"!=",
+        "optionD": "!==",
+        "answer": "==="
+    },
+
+
+    {
+        "question": "Which keyword is used to declare a function in JavaScript?",
+        "optionA": "function",
+        "optionB": "method",
+        "optionC":"def",
+        "optionD": "func",
+        "answer":  "function"
+    },
+
+    {
+        "question": "Which statement is used to exit a loop in JavaScript?",
+        "optionA": "exit",
+        "optionB": "return",
+        "optionC":"break",
+        "optionD": "continue",
+        "answer":  "break"
+    },
+
+
+    {
+        "question": "Which method is used to handle the success case of a Promise?",
+        "optionA":".then()",
+        "optionB":".catch()",
+        "optionC":".finally()",
+        "optionD":".success()",
+        "answer": ".then()"
+    },
+
+    {
+        "question": "Which method is used to handle errors in a Promise?",
+        "optionA":".then()",
+        "optionB":".catch()",
+        "optionC":".finally()",
+        "optionD": ".error()",
+        "answer": ".catch()"
+    },
+
+    {
+        "question": "Which keyword is used inside an `async` function to pause execution until a Promise is settled?",
+        "optionA":"pause",
+        "optionB":"await",
+        "optionC":"delay",
+        "optionD":"stop",
+        "answer": "await"
+    }
+]

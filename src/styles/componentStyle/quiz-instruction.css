@@ -1,0 +1,44 @@
+.instructions {
+    border: 2px solid #f2f1f1;
+    border-radius: 5px;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    padding: 1rem 3rem;
+}
+h1{
+    color: #333;
+    font-size: 2rem;
+    text-align: center;
+}
+.lifeline{
+    position: relative;
+    top: -3px;
+}
+
+.lifeline-icon{
+    color: #3d8930;
+    cursor: pointer;
+}
+.browser-default{
+    padding-left: 30px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+
+img{
+    width: 80%;
+    height: 50%;
+}
+
+
+@media(max-width:768px){
+    .instructions img{
+        width: 100% !important;
+        height: 150% !important;
+    }
+}
+
+.left-right{
+    display: flex;
+    justify-content: space-between;
+}

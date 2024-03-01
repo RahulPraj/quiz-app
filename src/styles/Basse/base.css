@@ -1,0 +1,11 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.disable{
+    background-color: #ccc !important;
+    box-shadow: none !important;
+    pointer-events: none;
+    opacity: 0.9 !important;
+}
