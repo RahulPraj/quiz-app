@@ -260,7 +260,7 @@ const handleDisableButton = () => {
 const endGame = () => {
   alert('Quiz has ended!');
   const playerStats = {
-    score: state.score,
+    score: (state.score / state.numberOfQuestions) * 100,
     numberOfQuestions: state.numberOfQuestions,
     numberOfAnsweredQuestions: state.correctAnswers + state.wrongAnswers,
     correctAnswers: state.correctAnswers,
